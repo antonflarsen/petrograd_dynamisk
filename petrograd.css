@@ -49,7 +49,26 @@ body {
 .starterDish {
 	background-color: #2b2a21;
 	color: beige;
+
+
 }
+
+
+
+.data_dishimage img {
+	width: 20vw;
+	height: 12vw;
+	background-size: contain;
+	margin-bottom: 2vw;
+}
+
+.starter_one_description {
+	width: 20vw;
+	height: 12vw;
+	margin-bottom: 2vw;
+}
+
+
 /*
 .starter_one_img {
 	height: 10vw;
@@ -58,75 +77,7 @@ body {
 	background-image: url(billeder/borsjtj.jpg);
 }
 */
-.starter_two_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/bulgarskbondesuppe.jpg);
-}
 
-.starter_three_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/baltiskbondesuppe.jpg);
-}
-
-
-/*HOVEDRETTER*/
-
-.mainDish {
-	background-color: #2b2a21;
-	color: beige;
-}
-
-.maincourse_headline {
-	text-align: center;
-	color: beige;
-	background-color: #2b2a21
-}
-
-.mainDish_one_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/boef.jpg);
-}
-
-.mainDish_two_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/dynryp.jpg);
-}
-
-.mainDish_three_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/kaalsuppe.jpg);
-}
-
-.mainDish_four_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/kaalsuppe.jpg);
-}
-
-.mainDish_five_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/russisksalat.jpg);
-}
-
-.mainDish_six_img {
-	height: 10vw;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(billeder/syltedeloeg.jpg);
-}
 
 
 /*SPLITBILLEDER*/
@@ -138,9 +89,3 @@ body {
 	background-repeat: no-repeat;
 }
 
-.splitPicTwo {
-	width: 100%;
-	height: 20vw;
-	background-image: url(billeder/splitpic_two.jpg);
-	background-repeat: no-repeat;
-}
