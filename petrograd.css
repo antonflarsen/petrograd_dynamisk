@@ -1,0 +1,144 @@
+body {
+	background-color: #868686;
+}
+
+
+/*SPLASH*/
+
+.splashimg {
+	width: 100%;
+	height: 40vw;
+	background-image: url(billeder/splashPicOne.jpg);
+}
+
+
+/*OM*/
+
+.about {
+	text-align: center;
+	background-color: #2b2a21;
+	color: beige;
+}
+
+.about p {
+	font-size: 110%
+}
+
+.russianstar {
+	width: 5vw;
+	height: 5vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/russianstar.svg);
+	margin: 0 auto;
+	margin-bottom: 1vw;
+}
+
+
+/*FORETTER*/
+
+.starters_headline {
+	text-align: center;
+	color: beige;
+	background-color: #2b2a21;
+}
+
+.starterDish {
+	width: 100%;
+	background-color: #2b2a21;
+	color: beige;
+}
+
+.starter_one_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/borsjtj.jpg);
+}
+
+.starter_two_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/bulgarskbondesuppe.jpg);
+}
+
+.starter_three_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/baltiskbondesuppe.jpg);
+}
+
+
+/*HOVEDRETTER*/
+
+.mainDish {
+	background-color: #2b2a21;
+	color: beige;
+}
+
+.maincourse_headline {
+	text-align: center;
+	color: beige;
+	background-color: #2b2a21
+}
+
+.mainDish_one_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/boef.jpg);
+}
+
+.mainDish_two_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/dynryp.jpg);
+}
+
+.mainDish_three_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/kaalsuppe.jpg);
+}
+
+.mainDish_four_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/kaalsuppe.jpg);
+}
+
+.mainDish_five_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/russisksalat.jpg);
+}
+
+.mainDish_six_img {
+	height: 10vw;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(billeder/syltedeloeg.jpg);
+}
+
+
+/*SPLITBILLEDER*/
+
+.splitPicOne {
+	width: 100%;
+	height: 20vw;
+	background-image: url(billeder/splitpic_one.jpg);
+	background-repeat: no-repeat;
+}
+
+.splitPicTwo {
+	width: 100%;
+	height: 20vw;
+	background-image: url(billeder/splitpic_two.jpg);
+	background-repeat: no-repeat;
+}
