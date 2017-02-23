@@ -16,6 +16,12 @@ function visProdukt(produkt) {
 	//klon template
 	var klon = document.querySelector("#product_template").content.cloneNode(true);
 	//sæt data ind i klon
+	klon.querySelector(".data_name").innerHTML = produkt.navn;
+	klon.querySelector(".data_price").innerHTML = produkt.pris;
+
+	var rabatpris = Math.ceil( produkt.pris - (produkt.pris*produkt.rabatsats/100 ));
+	klon.querySelector(".discount_price").innerHTML = rabatpris;
 	//append klon til .starterDish
 	document.querySelector(".produktliste").appendChild(klon);
+
 }
