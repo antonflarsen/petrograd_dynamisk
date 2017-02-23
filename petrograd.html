@@ -38,47 +38,58 @@
 		</section>
 	</div>
 	<div class="container">
-
 		<section class="starterDish produktliste row">
 			<!--			FORRET 1-->
 			<template id="product_template">
 				<div class="dish col-xs-12 col-md-4">
-
-					<div class="data_dishimage">
-						<img src="" alt="">
-					</div>
+					<div class="data_dishimage"> <img src="" alt=""> </div>
 					<div class="data_name">
 						<h2>NAVN</h2></div>
 					<div class="starter_one_description">
 						<table class="table">
-							<tr>
-								<td>Beskrivelse</td>
-								<td class="data_description"> BESKRIVELSE</td>
-							</tr>
+
+
 							<tr class="price">
-								<td >Pris</td>
-								<!--TO DO: Sæt udsolgt class ved udsolgt.
-							sæt rabat ved pris, hvis rabat-->
+								<td>Pris</td>
+
 								<td> <span class="data_price">PRIS</span> </td>
 							</tr>
-
 							<tr class="data_discount">
 								<td>Rabat</td>
-								<td ><span class="discount_price">RABAT</td>
-  							<!--	RABAT vises kun ved rabat-->
-						</tr>
-						<tr>
-							<td>Vegetaregnet</td>
-							<td class="data_vegetarian"> VEGETAREGNET</td>
-						</tr>
-						<tr>
+								<td><span class="discount_price">RABAT</td>
+
+							</tr>
+
+							<tr>
 								<td class="data_soldOut"> <span class="udsolgttekst">Denne vare er desvære udsolgt</span></td>
 							</tr>
-					</table>
+							<td class="data_modal">
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary btn-md modalknap" data-toggle="modal" data-target="#myModal"> SE DETALJER </button>
+								<!-- Modal -->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												<h4 class="modal-title" id="myModalLabel">Modal title</h4> </div>
+											<div class="modal-body">
+												<p>Beskrivelse: <span class="data_description">BESKRIVELSE</span> </p>
+												<br>
+												<p>Vegetaregnet: <span class="data_vegetarian">VEGETAREGNET</span> </p>
+											</div>
+											<!--
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save changes</button>
+									</div>
+--></div>
+									</div>
+								</div>
+						</table>
+					</div>
 				</div>
-			</div>
 			</template>
-
 		</section>
 	</div>
 	<!--	Opdelingsbillede 1-->
@@ -87,12 +98,8 @@
 			<div class="splitPicOne"> </div>
 		</section>
 	</div>
-
-<!-- MODALKNAP START-->
-
-
-
-<!-- MODALKNAP SLUT-->
+	<!-- MODALKNAP START-->
+	<!-- MODALKNAP SLUT-->
 	<!-- HOVEDRETTER -->
 	<!-- DESSERTER -->
 	<!--	Opdelingsbillede 3-->

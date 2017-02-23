@@ -68,6 +68,9 @@ body {
 	margin-bottom: 2vw;
 }
 
+.modal-content {
+	background-color: #2b2a21;
+}
 
 /*
 .starter_one_img {
