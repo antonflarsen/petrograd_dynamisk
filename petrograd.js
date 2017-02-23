@@ -29,6 +29,16 @@ function visProdukt(produkt) {
 		//udsolgtlinje skal fjernes
 		var udsolgttekst = klon.querySelector(".udsolgttekst");
 		udsolgttekst.parentNode.removeChild ( udsolgttekst );
+	} else {
+		klon.querySelector(".price").classList.add("udsolgt");
+	}
+
+	if ( produkt.udsolgt == true || produkt.rabatsats == 0) {
+		//Der er ikke rabat - rabatprisen skal fjernes
+		var rabatpris = klon.querySelector (".data_discount");
+		rabatpris.parentNode.removeChild ( rabatpris );
+	} else {
+		klon.querySelector(".price").classList.add("rabat");
 	}
 
 	//append klon til .starterDish
