@@ -23,6 +23,14 @@ function visProdukt(produkt) {
 	klon.querySelector(".discount_price").innerHTML = rabatpris;
 
 	klon.querySelector(".data_dishimage img").src = "/imgs/small/" + produkt.billede + "-sm.jpg";
+
+	if (produkt.udsolgt == false ) {
+		//produktet er ikke udsolgt
+		//udsolgtlinje skal fjernes
+		var udsolgttekst = klon.querySelector(".udsolgttekst");
+		udsolgttekst.parentNode.removeChild ( udsolgttekst );
+	}
+
 	//append klon til .starterDish
 	document.querySelector(".produktliste").appendChild(klon);
 
